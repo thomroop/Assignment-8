@@ -1,4 +1,4 @@
-
+const addTaskBtn = document.getElementById("add-task-btn");
 const taskInput = document.getElementById("task-input");   // Get references to  HTML elements by their id. the input field where you type tasks
 const taskList = document.getElementById("task-list");      // the <ul> or <ol> element where tasks will appear.
 const allBtn = document.getElementById("all-btn");           // All these are filter buttons to show all, only active, or only completed task
